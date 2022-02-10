@@ -1,0 +1,192 @@
+.logo_and_signup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 2em grey;
+    font-family: sans-serif;
+}
+
+header {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+
+.logo_jumpto_img {
+    width: 200px;
+    height: auto;
+}
+
+.signup {
+    height: 50px;
+    width: 120px;
+    background-color: #01a0b8;
+    text-align: center;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+
+.login_card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.login {
+    width: 400px;
+    height: 550px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustration {
+    height: 400px;
+}
+
+.card_illustration {
+    display: flex;
+    flex-direction: column;
+}
+
+.for_illustration {
+    width: 400px;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.inp_email_pw {
+    display: flex;
+    flex-direction: column;
+}
+
+.login_username, .login_pw {
+    height: 30px;
+    width: 300px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-color: black;
+}
+
+.user_label, .pw_label {
+    margin-top: 30px;
+}
+
+.forgot_pw {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 10px;
+    font-size: 10pt;
+}
+
+.forgot_pw a {
+    text-decoration: none;
+}
+
+.enter_btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+}
+
+.enter_btn input {
+    height: 40px;
+    width: 120px;
+    background-color: #01a0b8;
+    border: none;
+    color: whitesmoke;
+}
+
+.zoom_login, .google_login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 15px;
+    /* background-color: cadetblue; */
+    border: 1px black solid;
+    border-radius: 20px;
+    margin: 7px;
+    height: 40px;
+    width: max-content;
+}
+
+.zoom_login p, .google_login p {
+    padding: 10px;
+}
+
+.zoom_icon, .google_icon {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+}
+
+.img_social {
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+.social_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.social_item a {
+    text-decoration: none;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.aditional_informations {
+    margin: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.social_and_development {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.social_and_development h2 {
+    padding: 20px;
+}
+
+.fictional_line {
+    width: 900px;
+    height: 1px;
+    background-color: black;
+    margin-right: 0;
+}
+
+.development {
+    margin: 20px;
+}
