@@ -26,7 +26,11 @@ header {
     background-color: #01a0b8;
     text-align: center;
     margin-right: 20px;
+}
+
+.signup a {
     color: whitesmoke;
+    text-decoration: none;
 }
 
 .login_card {
