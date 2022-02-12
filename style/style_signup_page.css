@@ -7,6 +7,11 @@
     font-family: sans-serif;
 }
 
+.back_to_home {
+    display: flex;
+    flex-direction: row;
+}
+
 .road_steps {
     display: flex;
     flex-direction: row;
