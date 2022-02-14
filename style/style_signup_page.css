@@ -106,7 +106,7 @@
     text-align: left;
 }
 
-.wall-1:target, .wall-2:target {
+.wall-1:target, .wall-2:target, .wall-3:target {
     width: 500px;
     height: max-content;
     display: flex;
@@ -114,4 +114,42 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.plans {
+    background-color: #01a0b8;
+    padding: 10px;
+    margin: 10px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.plans_cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.select_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.select_value {
+    height: 25px;
+    width: 25px;
+}
+
+.list_benefits {
+    text-align: center;
+    list-style: none;
+}
+
+.price {
+    text-align: right;
+    font-size: large;
+    font-weight: bold;
 }
